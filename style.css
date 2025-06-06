@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+ }
+
+body{
+    color: #000000;
+  background-color: #ffffff;
+
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  font-size: 34px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#MyProfile{
+   border: 1px solid black;
+   padding: 5px 20px;
+}
+
+header nav a,
+header nav a:link,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#MAIN{
+  display: flex;
+  justify-content: center;
+}
+
+#CAMERA{
+  width: 1440px;
+  height: 588px;
+}
+
+#ABOUT{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.ABOUT-CONTENT{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+#ABOUT h1{
+  font-size: 34px;
+}
+
+#ABOUT img{
+  border-radius: 50%;
+  height: 282px;
+  width: 282px;
+}
+
+.ABOUT-p ul{
+  text-align: left;
+  margin-left: 100px;
+}
+
+.ABOUT-p p{
+  font-size: 24px;
+  margin-right: 150px;
+  font-weight: bold;
+}
+
+#Works{
+  margin-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+  
+}
+
+#Works h1{
+  font-size: 34px;
+}
+
+.Works-content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.niigata{
+  width: 240px;
+}
+
+.niigata img{
+  width: 100%;
+}
+
+.niigata p{
+  text-align: left;
+  font-size: 18px;
+}
+
+footer{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  header nav{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  gap: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  }
+
+  #CAMERA{
+  width: 100%;
+  height: 100%;
+}
+
+.ABOUT-CONTENT{
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+#ABOUT h1{
+  font-size: 28px;
+}
+
+#ABOUT img{
+  height: 50%;
+  width: 50%;
+
+}
+.ABOUT-p ul{
+  font-size: 10px;
+  margin-left: 0;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.ABOUT-p p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 0;
+  padding: 0 16px;
+  
+}
+
+.Works-content{
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+#Works{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#Works h1{
+  font-size: 28px;
+}
+
+.niigata p{
+  font-size: 10px;
+  margin-top: 0;
+}
+
+footer{
+  margin-top: 0;
+}
+}
